@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+.card{
+    height: auto;
+    width: 340px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+.incdec{
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+input[type="number"]{
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid black;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+input[type="password"]{
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid black;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+input[type="text"]{
+    height: 40px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid black;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.data{
+    margin-top: 50px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.atc,.rtc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cart_button{
+    height: 40px;
+    width: auto;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: #fff;
+}
+.rtc{
+    margin-top: 30px;
+}
+.open_modal{
+    font-size: 16px;
+    width: 120px;
+    background-color: blueviolet;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.open_modal:hover{
+    background-color: blue;
+}
+.input_text{
+    margin-top: 30px;
+}
+.submit_form{
+    font-size: 16px;
+    width: 60%;
+    background-color: blueviolet;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.submit_form:hover{
+    background-color: blue;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}

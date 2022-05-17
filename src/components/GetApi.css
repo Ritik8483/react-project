@@ -1,0 +1,8 @@
+.main_table{
+    border: 1px solid black;
+    border-collapse: collapse; 
+    width: 80%;
+  }
+  .main_table th,tr,td{
+      border: 1px solid red;
+  }
